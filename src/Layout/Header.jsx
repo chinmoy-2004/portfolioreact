@@ -15,7 +15,7 @@ function Header() {
                     <Link to="/" className="flex items-center hover:animate-none">
                    
                             <img
-                                src="public/file (1).png"
+                                src="public/assets/file (1).png"
                                 className="mr-3 h-16 animate-spin  hover:scale-150"
                                 alt="Logo"
                             />

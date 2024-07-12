@@ -40,7 +40,7 @@ function Home() {
         </div>
         <div className="flex justify-center p-5">
           <img
-            src="public/file.png"
+            src="public/assets/file.png"
             alt="Nature"
             className="w-48 md:w-96 rounded-full animate-slideUpDown"
           />
