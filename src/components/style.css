@@ -1,0 +1,6 @@
+.project-card:hover, .project-card:active, .project-card.active-card {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #f3f4f6; /* bg-gray-100 */
+    color: #1e293b; /* text-slate-800 */
+}
