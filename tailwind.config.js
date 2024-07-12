@@ -77,7 +77,7 @@ export default {
         colorChange: 'colorChange 1.5s infinite',
       },
       backgroundImage: {
-        'custom-bg': "url('public/assets/bg1 (2).jpg')",
+        'custom-bg': "url('/assets/bg1 (2).jpg')",
       },
     },
   },
