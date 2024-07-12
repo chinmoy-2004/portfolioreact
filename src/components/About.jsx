@@ -12,7 +12,7 @@ function About() {
         { name: 'Github', imgSrc: '/assets/github.jpeg', bgColor: 'bg-gray-800' },
         { name: 'VS Code', imgSrc: '/assets/vs.jpeg', bgColor: 'bg-blue-800' },
         { name: 'C', imgSrc: '/assets/c.jpeg', bgColor: 'bg-green-800' },
-        { name: 'C++', imgSrc: '/assets/C++.jpeg', bgColor: 'bg-cyan-800' },
+        { name: 'C++', imgSrc: '/assets/cpp.jpeg', bgColor: 'bg-cyan-800' },
     ];
 
     const [activeIndex, setActiveIndex] = useState(null);
