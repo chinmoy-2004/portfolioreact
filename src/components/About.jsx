@@ -2,17 +2,17 @@ import React, { useEffect, useRef, useState } from 'react';
 
 function About() {
     const skills = [
-        { name: 'HTML', imgSrc: 'public/assets/html.jpeg', bgColor: 'bg-red-500' },
-        { name: 'CSS', imgSrc: 'public/assets/css.jpeg', bgColor: 'bg-blue-500' },
-        { name: 'JavaScript', imgSrc: 'public/assets/js.jpeg', bgColor: 'bg-yellow-500' },
-        { name: 'React', imgSrc: 'public/assets/react.jpeg', bgColor: 'bg-cyan-500' },
-        { name: 'Tailwind', imgSrc: 'public/assets/tailwind.jpeg', bgColor: 'bg-teal-500' },
-        { name: 'Appwrite', imgSrc: 'public/appwrite.png', bgColor: 'bg-pink-500' },
-        { name: 'Python', imgSrc: 'public//assetspython.png', bgColor: 'bg-green-500' },
-        { name: 'Github', imgSrc: 'public/assets/github.jpeg', bgColor: 'bg-gray-800' },
-        { name: 'VS Code', imgSrc: 'public/assets/vs.jpeg', bgColor: 'bg-blue-800' },
-        { name: 'C', imgSrc: 'public/assets/c.jpeg', bgColor: 'bg-green-800' },
-        { name: 'C++', imgSrc: 'public/assets/C++.jpeg', bgColor: 'bg-cyan-800' },
+        { name: 'HTML', imgSrc: '/assets/html.jpeg', bgColor: 'bg-red-500' },
+        { name: 'CSS', imgSrc: '/assets/css.jpeg', bgColor: 'bg-blue-500' },
+        { name: 'JavaScript', imgSrc: '/assets/js.jpeg', bgColor: 'bg-yellow-500' },
+        { name: 'React', imgSrc: '/assets/react.jpeg', bgColor: 'bg-cyan-500' },
+        { name: 'Tailwind', imgSrc: '/assets/tailwind.jpeg', bgColor: 'bg-teal-500' },
+        { name: 'Appwrite', imgSrc: '/assets/appwrite.png', bgColor: 'bg-pink-500' },
+        { name: 'Python', imgSrc: '/assets/python.png', bgColor: 'bg-green-500' },
+        { name: 'Github', imgSrc: '/assets/github.jpeg', bgColor: 'bg-gray-800' },
+        { name: 'VS Code', imgSrc: '/assets/vs.jpeg', bgColor: 'bg-blue-800' },
+        { name: 'C', imgSrc: '/assets/c.jpeg', bgColor: 'bg-green-800' },
+        { name: 'C++', imgSrc: '/assets/C++.jpeg', bgColor: 'bg-cyan-800' },
     ];
 
     const [activeIndex, setActiveIndex] = useState(null);
@@ -48,7 +48,7 @@ function About() {
         <div className="flex flex-col items-center justify-center p-4 bg-slate-800 w-full h-full">
             <div className="flex justify-center p-5">
                 <img
-                    src="public/assets/file.png"
+                    src="/assets/file.png"
                     alt="Nature"
                     className="w-48 md:w-96 rounded-full animate-slideUpDown"
                 />

@@ -4,28 +4,28 @@ function Project() {
     const projects = [
         {
             name: 'Qurrency converter',
-            imgSrc: 'public/assets/qurrency.png',
+            imgSrc: '/assets/qurrency.png',
             description: 'Short description of Project One.',
             repoLink: 'https://github.com/chinmoy-2004/qurrencyreac.git',
             websiteLink: 'https://qurrencyreac.vercel.app/'
         },
         {
             name: 'Linear gradient generator',
-            imgSrc: 'public/assets/linear.png',
+            imgSrc: '/assets/linear.png',
             description: 'Short description of Project Two.',
             repoLink: 'https://github.com/chinmoy-2004/projects/tree/main/linear-gradient%20gen',
             websiteLink: 'https://projects-silk-nine.vercel.app'
         },
         {
             name: 'Qr code generator',
-            imgSrc: 'public/assets/qrcode.png',
+            imgSrc: '/assets/qrcode.png',
             description: 'Short description of Project Two.',
             repoLink: 'https://github.com/chinmoy-2004/projects/tree/main/qrcodegenarator',
             websiteLink: 'https://projects-rlny.vercel.app/'
         },
         {
             name: 'To-Do List',
-            imgSrc: 'public/assets/to-do.png',
+            imgSrc: '/assets/to-do.png',
             description: 'Short description of Project Two.',
             repoLink: 'https://github.com/chinmoy-2004/projects/tree/main/todolist',
             websiteLink: 'https://projects-e1bq.vercel.app/'
