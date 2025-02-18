@@ -16,7 +16,7 @@ function Header() {
                    
                             <img
                                 src="/assets/file (1).png"
-                                className="mr-3 h-16 animate-spin  hover:scale-150"
+                                className="mr-3 h-16  scale-150"
                                 alt="Logo"
                             />
                      
