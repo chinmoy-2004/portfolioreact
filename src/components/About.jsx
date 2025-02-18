@@ -2,17 +2,20 @@ import React, { useEffect, useRef, useState } from 'react';
 
 function About() {
     const skills = [
-        { name: 'HTML', imgSrc: '/assets/html.jpeg', bgColor: 'bg-red-500' },
-        { name: 'CSS', imgSrc: '/assets/css.jpeg', bgColor: 'bg-blue-500' },
-        { name: 'JavaScript', imgSrc: '/assets/js.jpeg', bgColor: 'bg-yellow-500' },
-        { name: 'React', imgSrc: '/assets/react.jpeg', bgColor: 'bg-cyan-500' },
-        { name: 'Tailwind', imgSrc: '/assets/tailwind.jpeg', bgColor: 'bg-teal-500' },
-        { name: 'Appwrite', imgSrc: '/assets/appwrite.png', bgColor: 'bg-pink-500' },
-        { name: 'Python', imgSrc: '/assets/python.png', bgColor: 'bg-green-500' },
-        { name: 'Github', imgSrc: '/assets/github.jpeg', bgColor: 'bg-gray-800' },
-        { name: 'VS Code', imgSrc: '/assets/vs.jpeg', bgColor: 'bg-blue-800' },
-        { name: 'C', imgSrc: '/assets/c.jpeg', bgColor: 'bg-green-800' },
+        { name: 'HTML', imgSrc: '/assets/html.jpeg', bgColor: 'bg-cyan-800' },
+        { name: 'CSS', imgSrc: '/assets/css.jpeg', bgColor: 'bg-cyan-800' },
+        { name: 'JavaScript', imgSrc: '/assets/js.jpeg', bgColor: 'bg-cyan-800' },
+        { name: 'React', imgSrc: '/assets/react.jpeg', bgColor: 'bg-cyan-800' },
+        { name: 'Tailwind', imgSrc: '/assets/tailwind.jpeg', bgColor: 'bg-cyan-800' },
+        { name: 'Appwrite', imgSrc: '/assets/appwrite.png', bgColor: 'bg-cyan-800' },
+        { name: 'Python', imgSrc: '/assets/python.png', bgColor: 'bg-cyan-800' },
+        { name: 'Github', imgSrc: '/assets/github.jpeg', bgColor: 'bg-cyan-800' },
+        { name: 'VS Code', imgSrc: '/assets/vs.jpeg', bgColor: 'bg-cyan-800' },
+        { name: 'C', imgSrc: '/assets/c.jpeg', bgColor: 'bg-cyan-800' },
         { name: 'C++', imgSrc: '/assets/cpp.jpeg', bgColor: 'bg-cyan-800' },
+        { name: 'express.js', imgSrc: '/assets/express.png', bgColor: 'bg-cyan-800' },
+        { name: 'mongo db', imgSrc: '/assets/MongoDB.png', bgColor: 'bg-cyan-800' },
+        { name: 'Node.js.png', imgSrc: '/assets/Node.js.png', bgColor: 'bg-cyan-800' },
     ];
 
     const [activeIndex, setActiveIndex] = useState(null);
